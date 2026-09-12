@@ -43,10 +43,10 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Soenneker.Kiota.GenericAuthenticationProvider" Version="4.0.44" />
+        <PackageReference Include="Soenneker.Kiota.GenericAuthenticationProvider" Version="4.0.45" />
         <PackageReference Include="Soenneker.Jellyfin.HttpClients" Version="4.0.3" />
         <PackageReference Include="Soenneker.Jellyfin.OpenApiClient" Version="4.0.4" />
-        <PackageReference Include="Soenneker.Utils.AsyncSingleton" Version="4.0.837" />
+        <PackageReference Include="Soenneker.Utils.AsyncSingleton" Version="4.0.842" />
     </ItemGroup>
 </Project>
 
