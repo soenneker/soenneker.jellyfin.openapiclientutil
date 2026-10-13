@@ -25,7 +25,7 @@ public sealed class JellyfinOpenApiClientUtil : IJellyfinOpenApiClientUtil
         {
             HttpClient httpClient = await httpClientUtil.Get(token).NoSync();
 
-            var apiKey = configuration.GetValueStrict<string>("Jellyfin:ApiKey");
+            var apiKey = configuration.GetStringStrict("Jellyfin:ApiKey");
             string authHeaderName = configuration["Jellyfin:AuthHeaderName"] ?? "Authorization";
             string authHeaderValueTemplate = configuration["Jellyfin:AuthHeaderValueTemplate"] ?? "MediaBrowser Token={token}";
             string authHeaderValue = authHeaderValueTemplate.Replace("{token}", apiKey, StringComparison.Ordinal);
