@@ -48,7 +48,7 @@
     <ItemGroup>
         <PackageReference Include="Soenneker.Kiota.GenericAuthenticationProvider" Version="11.0.60" />
         <PackageReference Include="Soenneker.Jellyfin.HttpClients" Version="11.0.52" />
-        <PackageReference Include="Soenneker.Jellyfin.OpenApiClient" Version="11.0.30" />
+        <PackageReference Include="Soenneker.Jellyfin.OpenApiClient" Version="11.0.31" />
     </ItemGroup>
 </Project>
 
